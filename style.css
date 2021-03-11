@@ -1,0 +1,76 @@
+/*
+Theme Name: Rakuten-consul
+*/
+.bg-top-color {
+  /* 透過した黒を上から重ねるイメージ */
+  background-color: rgba(0,0,0,0.3);
+}
+.bg-blue {
+  background: linear-gradient(-45deg, rgba(65, 105, 225, .8), rgba(0, 191, 255, .8)),
+  url(images/store.jpg);
+  background-size: cover;
+}
+.bg-skyblue {
+  background-color: skyblue;
+}
+.height-600 {
+  height: 600px;
+}
+.top-logo {
+  font-family: "cursive";
+  font-size: 100px;
+}
+.img-size {
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 35px;
+}
+.position-relative{
+  top: 285px;
+}
+.position-relative-content {
+  position: relative;
+  
+  left: 100px;
+}
+.card {
+  border: none;
+}
+.card-font-size {
+  font-size: 20px;
+}
+/* レスポンシブ タブレット画面 */
+@media (max-width: 1024px) {
+  .top-logo {
+    font-size: 70px;
+  }
+  .position-relative{
+  top: 320px;
+  }
+  .display-4 {
+    font-size: 26px;
+  }
+  .img-size {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+/* レスポンシブ スマホ画面 */
+@media (max-width: 750px) {
+  h1 {
+  	font-size: 30px;
+  	padding-right: 50px;
+  }
+  .top-logo {
+    font-size: 30px;
+    padding-right: 50px;
+  }
+  .position-relative{
+  	top: 310px;
+  }
+  .card-font-size {
+  	font-size: 16px;
+  }
+}
